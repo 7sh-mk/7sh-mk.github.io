@@ -210,6 +210,13 @@
       "description": {
         "en": "Took part in the hackathon and built Hodhod, an AI voice assistant for older adults.",
         "ar": "شاركت في الهاكاثون وطوّرت «هدهد»، مساعدًا صوتيًا بالذكاء الاصطناعي لكبار السن."
+      },
+      "image": {
+        "src": "assets/certificates/kanz-project.webp",
+        "caption": {
+          "en": "Kanz AI Hackathon certificate",
+          "ar": "شهادة هاكاثون كنز للذكاء الاصطناعي"
+        }
       }
     },
     {
@@ -221,7 +228,8 @@
         "en": "King Abdulaziz University",
         "ar": "جامعة الملك عبدالعزيز"
       },
-      "date": "2025-06"
+      "date": "2025-06",
+      "image": null
     }
   ],
   "certifications": [

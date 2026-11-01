@@ -283,7 +283,18 @@ function renderEducation() {
 
 function renderRecognition() {
   $('#honorList').innerHTML = data.honors
-    .map((h) => `<li class="row reveal"><span class="row__title">${esc(t(h.title))}</span><span class="row__sub">${esc(t(h.issuer))}</span><span class="row__date">${esc(fmtDate(h.date))}</span>${h.description ? `<span class="row__desc">${esc(t(h.description))}</span>` : ''}</li>`)
+    .map((h, i) => `
+      <li class="honor reveal">
+        ${h.image
+          ? `<button class="honor__media" type="button" data-honor-shot="${i}" aria-label="${ui('rec.view')}: ${esc(t(h.title))}"><img src="${esc(h.image.src)}" alt="" loading="lazy"></button>`
+          : `<div class="honor__media honor__media--empty" aria-hidden="true"><span>✽</span></div>`}
+        <div class="honor__body">
+          <span class="honor__date">${esc(fmtDate(h.date))}</span>
+          <h3 class="honor__title">${esc(t(h.title))}</h3>
+          <p class="honor__issuer">${esc(t(h.issuer))}</p>
+          ${h.description ? `<p class="honor__desc">${esc(t(h.description))}</p>` : ''}
+        </div>
+      </li>`)
     .join('');
   renderCerts();
 }
@@ -317,10 +328,11 @@ function renderCerts() {
   observeReveal($('#certList'));
 }
 
-function openCertImage(i) {
-  const withImages = data.certifications.filter((c) => c.image);
-  state.gallery = withImages.map((c) => c.image);
-  openLightbox(withImages.indexOf(data.certifications[i]));
+// Opens one item's image in the lightbox, with the list's other images as its gallery.
+function openListImage(list, i) {
+  const withImages = list.filter((x) => x.image);
+  state.gallery = withImages.map((x) => x.image);
+  openLightbox(withImages.indexOf(list[i]));
 }
 
 /* ---------- Skills ---------- */
@@ -407,7 +419,7 @@ function renderAll() {
 }
 
 document.addEventListener('click', (e) => {
-  const el = e.target.closest('[data-project],[data-filter],[data-cert-filter],[data-cert-shot],[data-skill],[data-shot],[data-full],[data-close],.tl__toggle,#menuBtn,#langBtn,#themeBtn,.nav__links a');
+  const el = e.target.closest('[data-project],[data-filter],[data-cert-filter],[data-cert-shot],[data-honor-shot],[data-skill],[data-shot],[data-full],[data-close],.tl__toggle,#menuBtn,#langBtn,#themeBtn,.nav__links a');
   if (!el) {
     if (e.target.matches('dialog')) e.target.close(); // click on the backdrop
     return;
@@ -417,7 +429,8 @@ document.addEventListener('click', (e) => {
   else if (el.dataset.certFilter) {
     state.certFilter = el.dataset.certFilter;
     renderCerts();
-  } else if (el.dataset.certShot) openCertImage(Number(el.dataset.certShot));
+  } else if (el.dataset.certShot) openListImage(data.certifications, Number(el.dataset.certShot));
+  else if (el.dataset.honorShot) openListImage(data.honors, Number(el.dataset.honorShot));
   else if (el.dataset.skill) {
     setFilter(`tag:${el.dataset.skill}`);
     $('#projects').scrollIntoView();
