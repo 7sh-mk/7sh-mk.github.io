@@ -47,7 +47,6 @@ const ICONS = {
   x: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.2 2.3h3.4l-7.4 8.4 8.7 11.5h-6.8l-5.3-7-6.1 7H1.3l7.9-9L.9 2.3h7l4.8 6.4 5.5-6.4zm-1.2 17.9h1.9L7 4.2H5l12 16z"/></svg>',
   phone: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>',
   pin: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>',
-  cake: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6a2 2 0 0 0 2-2c0-.4-.1-.7-.3-1L12 0l-1.7 3c-.2.3-.3.6-.3 1a2 2 0 0 0 2 2zm6 3h-5V7h-2v2H6a3 3 0 0 0-3 3v1.5c0 1.1.9 2 2 2 .5 0 1-.2 1.4-.6L8.5 13l2.1 2.1a2 2 0 0 0 2.8 0l2.1-2.1 2.1 1.9c.4.4.9.6 1.4.6 1.1 0 2-.9 2-2V12a3 3 0 0 0-3-3zm-1 7.7-1-1-1.6 1.7a3.7 3.7 0 0 1-5.2 0L7.6 15.7l-1 1c-.5.5-1.2.8-2 .8a2.9 2.9 0 0 1-1.6-.5V21c0 .6.4 1 1 1h16c.6 0 1-.4 1-1v-4c-.5.3-1 .5-1.6.5-.8 0-1.5-.3-2-.8z"/></svg>',
   code: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>',
   external: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>',
   expand: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>',
@@ -107,6 +106,9 @@ function renderHero() {
   ];
   const line = ([a, b]) => `<span><b>${esc(t(a))}</b> @ ${esc(t(b))}</span>`;
   $('#nowList').innerHTML = now.map(line).join('');
+  const bday = $('#heroBirthday');
+  bday.hidden = !data.basics.birthday;
+  bday.textContent = data.basics.birthday ? `${ui('contact.birthday')} · ${t(data.basics.birthday)}` : '';
   $('#prevList').innerHTML = prev.map(line).join('');
 }
 
@@ -363,7 +365,6 @@ function renderContact() {
     L.x && `<a href="${esc(L.x)}" target="_blank" rel="noopener">${ICONS.x} @${esc(L.x.split('/').pop())}</a>`,
     L.phone && `<a href="tel:${esc(L.phone)}">${ICONS.phone} <span dir="ltr" style="all:unset">${esc(L.phone.replace(/^(\+966)(\d{2})(\d{3})(\d{4})$/, '$1 $2 $3 $4'))}</span></a>`,
     `<span>${ICONS.pin} ${esc(t(data.basics.location))}</span>`,
-    data.basics.birthday && `<span>${ICONS.cake} ${ui('contact.birthday')} · ${esc(t(data.basics.birthday))}</span>`,
   ].filter(Boolean);
   $('#contactList').innerHTML = items.map((i) => `<li>${i}</li>`).join('');
 }

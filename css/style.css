@@ -134,6 +134,7 @@ main { padding-inline: 16px; }
 .hero__tagline { color: var(--muted); margin-top: .5rem; font-size: .95rem; letter-spacing: .12em; text-transform: uppercase; }
 :lang(ar) .hero__tagline { letter-spacing: 0; text-transform: none; }
 .star { color: var(--accent); display: inline-block; }
+.hero__meta { color: var(--muted); font-size: .9rem; margin-top: .35rem; }
 .hero__about { font-size: clamp(1.1rem, 2.4vw, 1.3rem); margin-top: 1.75rem; max-width: 36em; }
 
 .now { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem 2rem; margin: 2.25rem 0 0; }
