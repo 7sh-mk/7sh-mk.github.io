@@ -58,7 +58,7 @@ const root = document.documentElement;
 
 let data;
 let lang = root.lang === 'ar' ? 'ar' : 'en';
-const state = { filter: 'all', certFilter: 'all', openProject: null, gallery: [], galleryIndex: 0 };
+const state = { filter: 'all', openProject: null, gallery: [], galleryIndex: 0 };
 
 const t = (v) => (v == null ? '' : typeof v === 'object' ? (v[lang] ?? v.en ?? '') : String(v));
 const ui = (k, vars = {}) => (UI[lang][k] ?? UI.en[k] ?? k).replace(/\{(\w+)\}/g, (_, n) => vars[n]);
@@ -300,15 +300,9 @@ function renderRecognition() {
 }
 
 function renderCerts() {
-  const certs = data.certifications;
-  const issuers = [...new Set(certs.map((c) => t(c.issuer)))];
-  const chips = [['all', ui('projects.all')], ...issuers.map((i) => [i, i])];
-  $('#certFilters').innerHTML = chips
-    .map(([id, label]) => `<button class="chip" type="button" data-cert-filter="${esc(id)}" aria-pressed="${state.certFilter === id}">${esc(label)}</button>`)
-    .join('');
-  $('#certList').innerHTML = certs
+  $('#certList').innerHTML = data.certifications
     .map((c, i) => `
-      <li class="cert reveal" ${state.certFilter !== 'all' && t(c.issuer) !== state.certFilter ? 'hidden' : ''}>
+      <li class="cert reveal">
         <div class="cert__body">
           ${c.image
             ? `<button class="cert__mark cert__thumb" type="button" data-cert-shot="${i}" aria-label="${ui('rec.view')}: ${esc(t(c.name))}"><img src="${esc(c.image.src)}" alt="" loading="lazy"></button>`
@@ -419,17 +413,14 @@ function renderAll() {
 }
 
 document.addEventListener('click', (e) => {
-  const el = e.target.closest('[data-project],[data-filter],[data-cert-filter],[data-cert-shot],[data-honor-shot],[data-skill],[data-shot],[data-full],[data-close],.tl__toggle,#menuBtn,#langBtn,#themeBtn,.nav__links a');
+  const el = e.target.closest('[data-project],[data-filter],[data-cert-shot],[data-honor-shot],[data-skill],[data-shot],[data-full],[data-close],.tl__toggle,#menuBtn,#langBtn,#themeBtn,.nav__links a');
   if (!el) {
     if (e.target.matches('dialog')) e.target.close(); // click on the backdrop
     return;
   }
   if (el.dataset.project) openProject(el.dataset.project);
   else if (el.dataset.filter) setFilter(el.dataset.filter);
-  else if (el.dataset.certFilter) {
-    state.certFilter = el.dataset.certFilter;
-    renderCerts();
-  } else if (el.dataset.certShot) openListImage(data.certifications, Number(el.dataset.certShot));
+  else if (el.dataset.certShot) openListImage(data.certifications, Number(el.dataset.certShot));
   else if (el.dataset.honorShot) openListImage(data.honors, Number(el.dataset.honorShot));
   else if (el.dataset.skill) {
     setFilter(`tag:${el.dataset.skill}`);
