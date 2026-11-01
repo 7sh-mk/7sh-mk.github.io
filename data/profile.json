@@ -222,14 +222,24 @@
     {
       "title": {
         "en": "Certificate of Excellence",
-        "ar": "شهادة تميّز"
+        "ar": "شهادة تفوق"
       },
       "issuer": {
         "en": "King Abdulaziz University",
         "ar": "جامعة الملك عبدالعزيز"
       },
       "date": "2025-06",
-      "image": null
+      "image": {
+        "src": "assets/certificates/excellence-kau.webp",
+        "caption": {
+          "en": "Certificate of Excellence, King Abdulaziz University",
+          "ar": "شهادة تفوق، جامعة الملك عبدالعزيز"
+        }
+      },
+      "description": {
+        "en": "GPA “Excellent” in the 2025–2026 academic year, awarded by the Deanship of Student Affairs.",
+        "ar": "تقدير «ممتاز» في العام الجامعي 2025–2026، من عمادة شؤون الطلاب."
+      }
     }
   ],
   "certifications": [
