@@ -44,7 +44,8 @@
       <a href="#projects" data-i18n="nav.projects">Projects</a>
       <a href="#experience" data-i18n="nav.experience">Experience</a>
       <a href="#education" data-i18n="nav.education">Education</a>
-      <a href="#recognition" data-i18n="nav.recognition">Recognition</a>
+      <a href="#recognition" data-i18n="nav.recognition">Honors</a>
+      <a href="#certifications" data-i18n="nav.certs">Certifications</a>
       <a href="#skills" data-i18n="nav.skills">Skills</a>
       <a href="#contact" data-i18n="nav.contact">Contact</a>
     </nav>
@@ -113,9 +114,15 @@
     <section class="section" id="recognition">
       <div class="section__head"><h2 data-i18n="rec.honors">Honors</h2></div>
       <ul class="rows" id="honorList"></ul>
-      <h3 class="sub" data-i18n="rec.certs">Licenses & certifications</h3>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="section__head">
+        <h2 data-i18n="rec.certs">Licenses & certifications</h2>
+        <p class="hand hand--small" data-i18n="rec.hint">verify any of them with one tap</p>
+      </div>
+      <div class="chips" id="certFilters" role="toolbar" aria-label="Filter certifications"></div>
       <ul class="certs" id="certList"></ul>
-      <button class="link-btn" id="certMore" type="button" hidden></button>
     </section>
 
     <section class="section" id="skills">
@@ -138,7 +145,7 @@
 
   <footer class="footer">
     <p><span id="year"></span> · <span data-bind="basics.name"></span></p>
-    <p class="hand hand--small" data-i18n="footer.note">made slowly, with care ✽</p>
+    <p class="footer__dua" lang="ar" dir="rtl">اللهم زدني علمًا <span class="star" aria-hidden="true">✽</span></p>
   </footer>
 
   <dialog class="modal" id="projectModal" aria-labelledby="modalTitle">

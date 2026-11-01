@@ -4,7 +4,7 @@ const UI = {
   en: {
     skip: 'Skip to content',
     'nav.projects': 'Projects', 'nav.experience': 'Experience', 'nav.education': 'Education',
-    'nav.recognition': 'Recognition', 'nav.skills': 'Skills', 'nav.contact': 'Contact',
+    'nav.recognition': 'Honors', 'nav.certs': 'Certifications', 'nav.skills': 'Skills', 'nav.contact': 'Contact',
     'hero.hello': 'hello, I’m', 'hero.currently': 'currently', 'hero.previously': 'previously',
     'hero.cta': 'See my work', 'hero.cv': 'Download CV',
     'projects.hint': 'tap a card to look inside', 'projects.all': 'All', 'projects.live': 'Live demo',
@@ -12,17 +12,18 @@ const UI = {
     'projects.code': 'Code on GitHub', 'projects.open': 'Open in new tab', 'projects.full': 'Full screen',
     'projects.exitFull': 'Exit full screen', 'projects.loading': 'Loading the live demo…', 'projects.camera': 'This demo asks for camera access. Nothing leaves your device.',
     'exp.volunteering': 'Volunteering', 'exp.details': 'Details', 'exp.present': 'Present',
-    'rec.honors': 'Honors', 'rec.certs': 'Licenses & certifications', 'rec.more': 'Show all {n}', 'rec.less': 'Show fewer', 'rec.id': 'ID',
+    'rec.honors': 'Honors', 'rec.certs': 'Licenses & certifications', 'rec.hint': 'verify any of them with one tap', 'rec.id': 'ID',
+    'rec.verify': 'Verify credential', 'rec.view': 'View certificate',
     'skills.hint': 'tap a skill to see where I used it', 'skills.languages': 'Languages',
     'contact.lead': 'I’m open to work and happy to talk about AI, research or a project idea.',
-    'contact.birthday': 'Birthday', 'footer.note': 'made slowly, with care ✽',
+    'contact.birthday': 'Birthday',
     'a11y.menu': 'Menu', 'a11y.theme': 'Toggle dark mode', 'a11y.close': 'Close', 'a11y.prev': 'Previous', 'a11y.next': 'Next', 'a11y.home': 'Home',
     langBtn: 'ع', langLabel: 'عربي',
   },
   ar: {
     skip: 'انتقل إلى المحتوى',
     'nav.projects': 'المشاريع', 'nav.experience': 'الخبرات', 'nav.education': 'التعليم',
-    'nav.recognition': 'التكريمات', 'nav.skills': 'المهارات', 'nav.contact': 'التواصل',
+    'nav.recognition': 'التكريمات', 'nav.certs': 'الشهادات', 'nav.skills': 'المهارات', 'nav.contact': 'التواصل',
     'hero.hello': 'أهلًا، أنا', 'hero.currently': 'حاليًا', 'hero.previously': 'سابقًا',
     'hero.cta': 'شاهد أعمالي', 'hero.cv': 'تحميل السيرة الذاتية',
     'projects.hint': 'اضغط على البطاقة لترى التفاصيل', 'projects.all': 'الكل', 'projects.live': 'تجربة حيّة',
@@ -30,10 +31,11 @@ const UI = {
     'projects.code': 'الكود على GitHub', 'projects.open': 'فتح في تبويب جديد', 'projects.full': 'ملء الشاشة',
     'projects.exitFull': 'إنهاء ملء الشاشة', 'projects.loading': 'جارٍ تحميل التجربة الحيّة…', 'projects.camera': 'هذه التجربة تطلب إذن الكاميرا، ولا يغادر شيء جهازك.',
     'exp.volunteering': 'التطوع', 'exp.details': 'التفاصيل', 'exp.present': 'حتى الآن',
-    'rec.honors': 'التكريمات', 'rec.certs': 'الشهادات والرخص', 'rec.more': 'عرض الكل ({n})', 'rec.less': 'عرض أقل', 'rec.id': 'المعرّف',
+    'rec.honors': 'التكريمات', 'rec.certs': 'الشهادات والرخص', 'rec.hint': 'تحقّق من أي شهادة بضغطة', 'rec.id': 'المعرّف',
+    'rec.verify': 'التحقق من الشهادة', 'rec.view': 'عرض الشهادة',
     'skills.hint': 'اضغط على مهارة لترى أين استخدمتها', 'skills.languages': 'اللغات',
     'contact.lead': 'متاحة لفرص العمل، ويسعدني الحديث عن الذكاء الاصطناعي أو البحث العلمي أو فكرة مشروع.',
-    'contact.birthday': 'تاريخ الميلاد', 'footer.note': 'صُنع بهدوء وعناية ✽',
+    'contact.birthday': 'تاريخ الميلاد',
     'a11y.menu': 'القائمة', 'a11y.theme': 'تبديل الوضع الداكن', 'a11y.close': 'إغلاق', 'a11y.prev': 'السابق', 'a11y.next': 'التالي', 'a11y.home': 'الرئيسية',
     langBtn: 'EN', langLabel: 'English',
   },
@@ -51,13 +53,12 @@ const ICONS = {
   expand: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>',
 };
 
-const CERTS_VISIBLE = 6;
 const $ = (s, el = document) => el.querySelector(s);
 const root = document.documentElement;
 
 let data;
 let lang = root.lang === 'ar' ? 'ar' : 'en';
-const state = { filter: 'all', certsOpen: false, openProject: null, gallery: [], galleryIndex: 0 };
+const state = { filter: 'all', certFilter: 'all', openProject: null, gallery: [], galleryIndex: 0 };
 
 const t = (v) => (v == null ? '' : typeof v === 'object' ? (v[lang] ?? v.en ?? '') : String(v));
 const ui = (k, vars = {}) => (UI[lang][k] ?? UI.en[k] ?? k).replace(/\{(\w+)\}/g, (_, n) => vars[n]);
@@ -284,28 +285,43 @@ function renderRecognition() {
   $('#honorList').innerHTML = data.honors
     .map((h) => `<li class="row reveal"><span class="row__title">${esc(t(h.title))}</span><span class="row__sub">${esc(t(h.issuer))}</span><span class="row__date">${esc(fmtDate(h.date))}</span>${h.description ? `<span class="row__desc">${esc(t(h.description))}</span>` : ''}</li>`)
     .join('');
-  const certs = data.certifications;
-  $('#certList').innerHTML = certs
-    .map((c, i) => `
-      <li class="cert" ${!state.certsOpen && i >= CERTS_VISIBLE ? 'hidden' : ''}>
-        <span class="cert__mark" aria-hidden="true">${esc(t(c.issuer).charAt(0))}</span>
-        <div>
-          <div class="cert__name">${esc(t(c.name))}</div>
-          <div class="cert__meta">${esc(t(c.issuer))} · ${esc(fmtDate(c.date))}</div>
-          ${c.credentialId ? `<div class="cert__meta cert__id" dir="ltr">${ui('rec.id')}: ${esc(c.credentialId)}</div>` : ''}
-        </div>
-      </li>`)
-    .join('');
-  const more = $('#certMore');
-  more.hidden = certs.length <= CERTS_VISIBLE;
-  more.textContent = state.certsOpen ? ui('rec.less') : ui('rec.more', { n: certs.length });
-  more.setAttribute('aria-expanded', state.certsOpen);
+  renderCerts();
 }
 
-$('#certMore').addEventListener('click', () => {
-  state.certsOpen = !state.certsOpen;
-  renderRecognition();
-});
+function renderCerts() {
+  const certs = data.certifications;
+  const issuers = [...new Set(certs.map((c) => t(c.issuer)))];
+  const chips = [['all', ui('projects.all')], ...issuers.map((i) => [i, i])];
+  $('#certFilters').innerHTML = chips
+    .map(([id, label]) => `<button class="chip" type="button" data-cert-filter="${esc(id)}" aria-pressed="${state.certFilter === id}">${esc(label)}</button>`)
+    .join('');
+  $('#certList').innerHTML = certs
+    .map((c, i) => `
+      <li class="cert reveal" ${state.certFilter !== 'all' && t(c.issuer) !== state.certFilter ? 'hidden' : ''}>
+        <div class="cert__body">
+          ${c.image
+            ? `<button class="cert__mark cert__thumb" type="button" data-cert-shot="${i}" aria-label="${ui('rec.view')}: ${esc(t(c.name))}"><img src="${esc(c.image.src)}" alt="" loading="lazy"></button>`
+            : `<span class="cert__mark" aria-hidden="true">${esc(t(c.issuer).charAt(0))}</span>`}
+          <div>
+            <div class="cert__name">${esc(t(c.name))}</div>
+            <div class="cert__meta">${esc(t(c.issuer))} · ${esc(fmtDate(c.date))}</div>
+            ${c.credentialId ? `<div class="cert__meta cert__id" dir="ltr">${ui('rec.id')}: ${esc(c.credentialId)}</div>` : ''}
+          </div>
+        </div>
+        ${c.url || c.image ? `<div class="cert__actions">
+          ${c.url ? `<a class="cert__link" href="${esc(c.url)}" target="_blank" rel="noopener">${ui('rec.verify')} ${ICONS.external}</a>` : ''}
+          ${c.image ? `<button class="cert__link" type="button" data-cert-shot="${i}">${ui('rec.view')}</button>` : ''}
+        </div>` : ''}
+      </li>`)
+    .join('');
+  observeReveal($('#certList'));
+}
+
+function openCertImage(i) {
+  const withImages = data.certifications.filter((c) => c.image);
+  state.gallery = withImages.map((c) => c.image);
+  openLightbox(withImages.indexOf(data.certifications[i]));
+}
 
 /* ---------- Skills ---------- */
 
@@ -391,13 +407,17 @@ function renderAll() {
 }
 
 document.addEventListener('click', (e) => {
-  const el = e.target.closest('[data-project],[data-filter],[data-skill],[data-shot],[data-full],[data-close],.tl__toggle,#menuBtn,#langBtn,#themeBtn,.nav__links a');
+  const el = e.target.closest('[data-project],[data-filter],[data-cert-filter],[data-cert-shot],[data-skill],[data-shot],[data-full],[data-close],.tl__toggle,#menuBtn,#langBtn,#themeBtn,.nav__links a');
   if (!el) {
     if (e.target.matches('dialog')) e.target.close(); // click on the backdrop
     return;
   }
   if (el.dataset.project) openProject(el.dataset.project);
   else if (el.dataset.filter) setFilter(el.dataset.filter);
+  else if (el.dataset.certFilter) {
+    state.certFilter = el.dataset.certFilter;
+    renderCerts();
+  } else if (el.dataset.certShot) openCertImage(Number(el.dataset.certShot));
   else if (el.dataset.skill) {
     setFilter(`tag:${el.dataset.skill}`);
     $('#projects').scrollIntoView();

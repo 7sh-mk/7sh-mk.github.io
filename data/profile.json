@@ -1,17 +1,34 @@
 {
   "_source": "LinkedIn (linkedin.com/in/sharifa-alzubaidi-ksa), extracted 2026-11-01, plus edits approved by the owner. Text fields are {\"en\", \"ar\"}; plain strings are shown as-is in both languages.",
-
   "basics": {
-    "name": { "en": "Sharifa Alzubaidi", "ar": "شريفة الزبيدي" },
-    "headline": { "en": "Master’s Student at King Abdulaziz University", "ar": "طالبة ماجستير في جامعة الملك عبدالعزيز" },
-    "tagline": { "en": "AI · Computer Science", "ar": "ذكاء اصطناعي · علوم حاسب" },
+    "name": {
+      "en": "Sharifa Alzubaidi",
+      "ar": "شريفة الزبيدي"
+    },
+    "headline": {
+      "en": "Master’s Student at King Abdulaziz University",
+      "ar": "طالبة ماجستير في جامعة الملك عبدالعزيز"
+    },
+    "tagline": {
+      "en": "AI · Computer Science",
+      "ar": "ذكاء اصطناعي · علوم حاسب"
+    },
     "about": {
       "en": "First-Class Honors Computer Science graduate from Umm Al-Qura University with a strong passion for Artificial Intelligence. Effective team player who performs well under pressure.",
       "ar": "خريجة علوم حاسب بمرتبة الشرف الأولى من جامعة أم القرى، وشغوفة بالذكاء الاصطناعي. أعمل بفاعلية ضمن الفريق، وأقدّم أفضل ما لدي تحت الضغط."
     },
-    "location": { "en": "Saudi Arabia", "ar": "السعودية" },
-    "openToWork": { "en": "Open to work · on-site, part-time or remote", "ar": "متاحة لفرص العمل · من المقر، دوام جزئي، أو عن بُعد" },
-    "birthday": { "en": "April 4", "ar": "4 أبريل" },
+    "location": {
+      "en": "Saudi Arabia",
+      "ar": "السعودية"
+    },
+    "openToWork": {
+      "en": "Open to work · on-site, part-time or remote",
+      "ar": "متاحة لفرص العمل · من المقر، دوام جزئي، أو عن بُعد"
+    },
+    "birthday": {
+      "en": "April 4",
+      "ar": "4 أبريل"
+    },
     "photo": "assets/brand/profile.webp",
     "banner": "assets/brand/banner.webp",
     "cv": null,
@@ -23,54 +40,112 @@
       "x": "https://x.com/7sh_mk"
     }
   },
-
   "experience": [
     {
-      "title": { "en": "Compiler Developer", "ar": "Compiler Developer" },
-      "company": { "en": "Education Department Office, Al-Qunfudhah", "ar": "مكتب التعليم بالقنفذة" },
-      "type": { "en": "Internship", "ar": "تدريب" },
+      "title": {
+        "en": "Compiler Developer",
+        "ar": "Compiler Developer"
+      },
+      "company": {
+        "en": "Education Department Office, Al-Qunfudhah",
+        "ar": "مكتب التعليم بالقنفذة"
+      },
+      "type": {
+        "en": "Internship",
+        "ar": "تدريب"
+      },
       "start": "2023-04",
       "end": "2023-07",
-      "location": { "en": "Al-Qunfudhah, Saudi Arabia", "ar": "القنفذة، السعودية" },
+      "location": {
+        "en": "Al-Qunfudhah, Saudi Arabia",
+        "ar": "القنفذة، السعودية"
+      },
       "summary": {
         "en": "Summer internship during my Bachelor’s in Computer Science, training across three departments: Maintenance, Networking and Programming, through real-world tasks and teamwork in a government environment.",
         "ar": "تدريب صيفي ضمن بكالوريوس علوم الحاسب، تنقّلت فيه بين ثلاثة أقسام: الصيانة والشبكات والبرمجة، من خلال مهام فعلية وعمل جماعي في بيئة حكومية."
       },
       "groups": [
         {
-          "name": { "en": "Computer Maintenance", "ar": "صيانة الحاسب" },
+          "name": {
+            "en": "Computer Maintenance",
+            "ar": "صيانة الحاسب"
+          },
           "items": [
-            { "en": "Diagnosed and repaired hardware issues", "ar": "تشخيص أعطال الأجهزة وإصلاحها" },
-            { "en": "Installed and configured Windows 10", "ar": "تثبيت Windows 10 وإعداده" },
-            { "en": "Partitioned hard disks and ran regular device checkups", "ar": "تقسيم الأقراص الصلبة والفحص الدوري للأجهزة" }
+            {
+              "en": "Diagnosed and repaired hardware issues",
+              "ar": "تشخيص أعطال الأجهزة وإصلاحها"
+            },
+            {
+              "en": "Installed and configured Windows 10",
+              "ar": "تثبيت Windows 10 وإعداده"
+            },
+            {
+              "en": "Partitioned hard disks and ran regular device checkups",
+              "ar": "تقسيم الأقراص الصلبة والفحص الدوري للأجهزة"
+            }
           ]
         },
         {
-          "name": { "en": "Networking", "ar": "الشبكات" },
+          "name": {
+            "en": "Networking",
+            "ar": "الشبكات"
+          },
           "items": [
-            { "en": "Connected and configured network devices", "ar": "توصيل أجهزة الشبكة وإعدادها" },
-            { "en": "Set up static and dynamic IP addresses", "ar": "إعداد عناوين IP الثابتة والديناميكية" },
-            { "en": "Installed and managed Windows Server", "ar": "تثبيت Windows Server وإدارته" },
-            { "en": "Basic VLAN setup and switch configuration", "ar": "أساسيات إعداد VLAN وتهيئة المحوّلات" },
-            { "en": "Used Active Directory and Group Policy", "ar": "استخدام Active Directory وGroup Policy" }
+            {
+              "en": "Connected and configured network devices",
+              "ar": "توصيل أجهزة الشبكة وإعدادها"
+            },
+            {
+              "en": "Set up static and dynamic IP addresses",
+              "ar": "إعداد عناوين IP الثابتة والديناميكية"
+            },
+            {
+              "en": "Installed and managed Windows Server",
+              "ar": "تثبيت Windows Server وإدارته"
+            },
+            {
+              "en": "Basic VLAN setup and switch configuration",
+              "ar": "أساسيات إعداد VLAN وتهيئة المحوّلات"
+            },
+            {
+              "en": "Used Active Directory and Group Policy",
+              "ar": "استخدام Active Directory وGroup Policy"
+            }
           ]
         },
         {
-          "name": { "en": "Programming", "ar": "البرمجة" },
+          "name": {
+            "en": "Programming",
+            "ar": "البرمجة"
+          },
           "items": [
-            { "en": "Built “Swan”, a web system for schools to submit and track maintenance requests online", "ar": "بناء «Swan»، نظام ويب تقدّم فيه المدارس طلبات الصيانة وتتابعها إلكترونيًا" },
-            { "en": "Used HTML, CSS, PHP and SQL", "ar": "باستخدام HTML وCSS وPHP وSQL" },
-            { "en": "Implemented user login, request submission and data storage", "ar": "تنفيذ تسجيل الدخول وتقديم الطلبات وتخزين البيانات" }
+            {
+              "en": "Built “Swan”, a web system for schools to submit and track maintenance requests online",
+              "ar": "بناء «Swan»، نظام ويب تقدّم فيه المدارس طلبات الصيانة وتتابعها إلكترونيًا"
+            },
+            {
+              "en": "Used HTML, CSS, PHP and SQL",
+              "ar": "باستخدام HTML وCSS وPHP وSQL"
+            },
+            {
+              "en": "Implemented user login, request submission and data storage",
+              "ar": "تنفيذ تسجيل الدخول وتقديم الطلبات وتخزين البيانات"
+            }
           ]
         }
       ]
     }
   ],
-
   "volunteering": [
     {
-      "title": { "en": "Deputy Head of Educational Content", "ar": "نائب رئيس قسم المحتوى التعليمي" },
-      "organization": { "en": "AIPioneers Training Center", "ar": "مركز رواد للتدريب (AIPioneers)" },
+      "title": {
+        "en": "Deputy Head of Educational Content",
+        "ar": "نائب رئيس قسم المحتوى التعليمي"
+      },
+      "organization": {
+        "en": "AIPioneers Training Center",
+        "ar": "مركز رواد للتدريب (AIPioneers)"
+      },
       "start": "2026-10",
       "end": null,
       "description": {
@@ -79,8 +154,14 @@
       }
     },
     {
-      "title": { "en": "Volunteer", "ar": "متطوعة" },
-      "organization": { "en": "National Volunteer Platform", "ar": "المنصة الوطنية للعمل التطوعي" },
+      "title": {
+        "en": "Volunteer",
+        "ar": "متطوعة"
+      },
+      "organization": {
+        "en": "National Volunteer Platform",
+        "ar": "المنصة الوطنية للعمل التطوعي"
+      },
       "start": null,
       "end": null,
       "description": {
@@ -89,179 +170,534 @@
       }
     }
   ],
-
   "education": [
     {
-      "school": { "en": "King Abdulaziz University", "ar": "جامعة الملك عبدالعزيز" },
-      "degree": { "en": "Master’s, Computer Science", "ar": "ماجستير علوم الحاسب" },
+      "school": {
+        "en": "King Abdulaziz University",
+        "ar": "جامعة الملك عبدالعزيز"
+      },
+      "degree": {
+        "en": "Master’s, Computer Science",
+        "ar": "ماجستير علوم الحاسب"
+      },
       "start": "2024-08",
-      "end": "2027-04"
+      "end": null
     },
     {
-      "school": { "en": "Umm Al-Qura University", "ar": "جامعة أم القرى" },
-      "degree": { "en": "Bachelor’s, Computer Science · First-Class Honors", "ar": "بكالوريوس علوم الحاسب · مرتبة الشرف الأولى" },
+      "school": {
+        "en": "Umm Al-Qura University",
+        "ar": "جامعة أم القرى"
+      },
+      "degree": {
+        "en": "Bachelor’s, Computer Science · First-Class Honors",
+        "ar": "بكالوريوس علوم الحاسب · مرتبة الشرف الأولى"
+      },
       "start": "2019-09",
       "end": "2023-11"
     }
   ],
-
   "honors": [
     {
-      "title": { "en": "Kanz Hackathon · Guinness World Record: AI Training Hackathon", "ar": "هاكاثون كنز · شهادة غينيس للأرقام القياسية: هاكاثون تدريب الذكاء الاصطناعي" },
-      "issuer": { "en": "Kanz Initiative, MHRSD", "ar": "مبادرة كنز، وزارة الموارد البشرية والتنمية الاجتماعية" },
+      "title": {
+        "en": "Kanz Hackathon · Guinness World Record: AI Training Hackathon",
+        "ar": "هاكاثون كنز · شهادة غينيس للأرقام القياسية: هاكاثون تدريب الذكاء الاصطناعي"
+      },
+      "issuer": {
+        "en": "Kanz Initiative, MHRSD",
+        "ar": "مبادرة كنز، وزارة الموارد البشرية والتنمية الاجتماعية"
+      },
       "date": "2026-07",
-      "description": { "en": "Took part in the hackathon and built Hudhud, an AI voice assistant for older adults.", "ar": "شاركت في الهاكاثون وطوّرت «هدهد»، مساعدًا صوتيًا بالذكاء الاصطناعي لكبار السن." }
+      "description": {
+        "en": "Took part in the hackathon and built Hodhod, an AI voice assistant for older adults.",
+        "ar": "شاركت في الهاكاثون وطوّرت «هدهد»، مساعدًا صوتيًا بالذكاء الاصطناعي لكبار السن."
+      }
     },
     {
-      "title": { "en": "Certificate of Excellence", "ar": "شهادة تميّز" },
-      "issuer": { "en": "King Abdulaziz University", "ar": "جامعة الملك عبدالعزيز" },
+      "title": {
+        "en": "Certificate of Excellence",
+        "ar": "شهادة تميّز"
+      },
+      "issuer": {
+        "en": "King Abdulaziz University",
+        "ar": "جامعة الملك عبدالعزيز"
+      },
       "date": "2025-06"
     }
   ],
-
   "certifications": [
-    { "name": "Promising Researcher · الباحث الواعد", "issuer": "King Abdulaziz University", "date": "2026-10" },
-    { "name": "Guinness World Record - AI Training Hackathon", "issuer": "Kanz", "date": "2026-07", "credentialId": "KANZ-GWR-FEFD0B5218" },
-    { "name": "AI Training Hackathon", "issuer": "Kanz", "date": "2026-07", "credentialId": "KANZ-ATT-490D2D5B8C" },
-    { "name": "AI-powered working project", "issuer": "Kanz", "date": "2026-07", "credentialId": "KANZ-ATT-A533A49BA7" },
-    { "name": "AI Capabilities and Limitations", "issuer": "Anthropic", "date": "2026-06", "credentialId": "jvpsoedtxs5n" },
-    { "name": "Introduction to Subagents", "issuer": "Anthropic", "date": "2026-06", "credentialId": "p4ucmhka28gx" },
-    { "name": "AI Fluency: Framework & Foundations", "issuer": "Anthropic", "date": "2026-06", "credentialId": "xkjqf95ae599" },
-    { "name": "Supercharge Your Data Analytics with Generative AI", "issuer": "IBM", "date": "2026-04", "credentialId": "ALM-COURSE_4059725" },
-    { "name": "Structuring Machine Learning Projects", "issuer": "Coursera", "date": "2025-04", "credentialId": "2OBXLX6A772D" },
-    { "name": "Unsupervised Learning, Recommenders, Reinforcement Learning", "issuer": "Stanford University", "date": "2025-04", "credentialId": "JBH5EVWIDRV3" }
+    {
+      "name": "Promising Researcher · الباحث الواعد",
+      "issuer": "King Abdulaziz University",
+      "date": "2026-10",
+      "image": {
+        "src": "assets/certificates/promising-researcher.webp",
+        "caption": {
+          "en": "Promising Researcher camp, KAU",
+          "ar": "مخيم الباحث الواعد، جامعة الملك عبدالعزيز"
+        }
+      }
+    },
+    {
+      "name": "Guinness World Record - AI Training Hackathon",
+      "issuer": "Kanz",
+      "date": "2026-07",
+      "credentialId": "KANZ-GWR-FEFD0B5218",
+      "url": "https://try.ka.nz/certificate/KANZ-GWR-FEFD0B5218?certificate_type=gwr2&recipient_name=%D8%B4%D8%B1%D9%8A%D9%81%D8%A9+%D9%85%D8%AD%D9%85%D8%AF&issue_date=July+15%2C+2026&certificate_id=KANZ-GWR-FEFD0B5218&lang=ar"
+    },
+    {
+      "name": "AI Training Hackathon",
+      "issuer": "Kanz",
+      "date": "2026-07",
+      "credentialId": "KANZ-ATT-490D2D5B8C",
+      "url": "https://try.ka.nz/ai/10"
+    },
+    {
+      "name": "AI-powered working project",
+      "issuer": "Kanz",
+      "date": "2026-07",
+      "credentialId": "KANZ-ATT-A533A49BA7",
+      "url": "https://try.ka.nz/certificate/KANZ-ATT-A533A49BA7?certificate_type=participation&recipient_name=Sharifa&issue_date=July%2015%2C%202026&certificate_id=KANZ-ATT-A533A49BA7",
+      "image": {
+        "src": "assets/certificates/kanz-project.webp",
+        "caption": {
+          "en": "Kanz AI workshop completion certificate",
+          "ar": "شهادة إتمام ورشة كنز للذكاء الاصطناعي"
+        }
+      }
+    },
+    {
+      "name": "AI Capabilities and Limitations",
+      "issuer": "Anthropic",
+      "date": "2026-06",
+      "credentialId": "jvpsoedtxs5n",
+      "url": "https://verify.skilljar.com/c/jvpsoedtxs5n"
+    },
+    {
+      "name": "Introduction to Subagents",
+      "issuer": "Anthropic",
+      "date": "2026-06",
+      "credentialId": "p4ucmhka28gx",
+      "url": "https://verify.skilljar.com/c/p4ucmhka28gx"
+    },
+    {
+      "name": "AI Fluency: Framework & Foundations",
+      "issuer": "Anthropic",
+      "date": "2026-06",
+      "credentialId": "xkjqf95ae599",
+      "url": "https://verify.skilljar.com/c/xkjqf95ae599"
+    },
+    {
+      "name": "Supercharge Your Data Analytics with Generative AI",
+      "issuer": "IBM",
+      "date": "2026-04",
+      "credentialId": "ALM-COURSE_4059725",
+      "url": "https://skills.yourlearning.ibm.com/certificate/share/b0941a8194ewogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIsCiAgImxlYXJuZXJDTlVNIiA6ICI3NjY2OTIzUkVHIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfNDA1OTcyNSIKfQ05c9ed9e4a-10"
+    },
+    {
+      "name": "Structuring Machine Learning Projects",
+      "issuer": "Coursera",
+      "date": "2025-04",
+      "credentialId": "2OBXLX6A772D",
+      "url": "https://www.coursera.org/account/accomplishments/records/2OBXLX6A772D"
+    },
+    {
+      "name": "Unsupervised Learning, Recommenders, Reinforcement Learning",
+      "issuer": "Stanford University",
+      "date": "2025-04",
+      "credentialId": "JBH5EVWIDRV3",
+      "url": "https://www.coursera.org/account/accomplishments/records/JBH5EVWIDRV3"
+    }
   ],
-
   "skills": [
-    { "group": { "en": "AI & Data", "ar": "الذكاء الاصطناعي والبيانات" }, "items": ["Machine Learning", "Deep Learning", "Computer Vision", "Generative AI", "AI Agents", "Multi-Agent", "Agentic Workflow Design", "Prompt Engineering"] },
-    { "group": { "en": "Tools & Languages", "ar": "الأدوات واللغات" }, "items": ["Python", "Scikit-learn", "Pandas", "NumPy", "TensorFlow", "MediaPipe", "n8n", "JavaScript", "HTML", "CSS", "SQL"] },
-    { "group": { "en": "Fields", "ar": "المجالات" }, "items": ["Cybersecurity", "Research and Development"] },
-    { "group": { "en": "Personal", "ar": "شخصية" }, "items": [
-      { "en": "Research Skills", "ar": "مهارات البحث" },
-      { "en": "Time Management", "ar": "إدارة الوقت" },
-      { "en": "Communication", "ar": "التواصل" }
-    ] }
+    {
+      "group": {
+        "en": "AI & Data",
+        "ar": "الذكاء الاصطناعي والبيانات"
+      },
+      "items": [
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Generative AI",
+        "AI Agents",
+        "Multi-Agent",
+        "Agentic Workflow Design",
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "group": {
+        "en": "Tools & Languages",
+        "ar": "الأدوات واللغات"
+      },
+      "items": [
+        "Python",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "TensorFlow",
+        "MediaPipe",
+        "n8n",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "SQL"
+      ]
+    },
+    {
+      "group": {
+        "en": "Fields",
+        "ar": "المجالات"
+      },
+      "items": [
+        "Cybersecurity",
+        "Research and Development"
+      ]
+    },
+    {
+      "group": {
+        "en": "Personal",
+        "ar": "شخصية"
+      },
+      "items": [
+        {
+          "en": "Research Skills",
+          "ar": "مهارات البحث"
+        },
+        {
+          "en": "Time Management",
+          "ar": "إدارة الوقت"
+        },
+        {
+          "en": "Communication",
+          "ar": "التواصل"
+        }
+      ]
+    }
   ],
-
   "languages": [
-    { "name": { "en": "Arabic", "ar": "العربية" }, "level": { "en": "Native", "ar": "اللغة الأم" } },
-    { "name": { "en": "English", "ar": "الإنجليزية" }, "level": { "en": "Professional working", "ar": "إجادة مهنية" } }
+    {
+      "name": {
+        "en": "Arabic",
+        "ar": "العربية"
+      },
+      "level": {
+        "en": "Native",
+        "ar": "اللغة الأم"
+      }
+    },
+    {
+      "name": {
+        "en": "English",
+        "ar": "الإنجليزية"
+      },
+      "level": {
+        "en": "Professional working",
+        "ar": "إجادة مهنية"
+      }
+    }
   ],
-
   "projectCategories": {
-    "web": { "en": "Web apps", "ar": "تطبيقات ويب" },
-    "ai": { "en": "AI systems", "ar": "أنظمة ذكاء اصطناعي" },
-    "ml": { "en": "ML research", "ar": "أبحاث تعلّم آلي" }
+    "web": {
+      "en": "Web apps",
+      "ar": "تطبيقات ويب"
+    },
+    "ai": {
+      "en": "AI systems",
+      "ar": "أنظمة ذكاء اصطناعي"
+    },
+    "ml": {
+      "en": "ML research",
+      "ar": "أبحاث تعلّم آلي"
+    }
   },
-
   "projects": [
     {
       "id": "mubashir",
-      "name": { "en": "Mubashir", "ar": "مباشر" },
+      "name": {
+        "en": "Mubashir",
+        "ar": "مباشر"
+      },
       "category": "web",
       "date": "2026",
-      "short": { "en": "Live guidance for a Civil Affairs ID photo, right in the browser.", "ar": "توجيه لحظي لتصوير صورة الأحوال المدنية من المتصفح." },
+      "short": {
+        "en": "Live guidance for a Civil Affairs ID photo, right in the browser.",
+        "ar": "توجيه لحظي لتصوير صورة الأحوال المدنية من المتصفح."
+      },
       "description": {
         "en": "Client-side web app that guides users live, in Arabic, while taking a Saudi Civil Affairs ID photo. It blocks capture until every requirement is met, then removes the background and exports a 4×6 cm white-background JPG ready for Absher. Built with MediaPipe Face Landmarker and Image Segmenter, plain HTML/CSS/JS, no server, and no data ever leaves the device.",
         "ar": "تطبيق ويب يعمل بالكامل على جهاز المستخدم، يوجّهه لحظيًا بالعربية أثناء تصوير صورة الأحوال المدنية، ولا يفعّل زر الالتقاط إلا عند تحقق كل الشروط. بعدها يزيل الخلفية ويصدّر صورة JPG بمقاس 4×6 سم وخلفية بيضاء جاهزة لأبشر. مبني بـ MediaPipe Face Landmarker وImage Segmenter وHTML/CSS/JS، بدون سيرفر، والصورة لا تغادر الجهاز."
       },
-      "tags": ["Computer Vision", "MediaPipe", "JavaScript"],
-      "thumb": { "src": "assets/projects/mubashir/icon.svg", "fit": "icon" },
-      "demo": { "url": "https://7sh-mk.github.io/mubashir/", "allow": "camera" },
+      "tags": [
+        "Computer Vision",
+        "MediaPipe",
+        "JavaScript"
+      ],
+      "thumb": {
+        "src": "assets/projects/mubashir/icon.svg",
+        "fit": "icon"
+      },
+      "demo": {
+        "url": "https://7sh-mk.github.io/mubashir/",
+        "allow": "camera"
+      },
       "repo": "https://github.com/7sh-mk/mubashir"
     },
     {
       "id": "waei",
-      "name": { "en": "Waei", "ar": "واعي" },
+      "name": {
+        "en": "Waei",
+        "ar": "واعي"
+      },
       "category": "web",
       "date": "2026",
-      "short": { "en": "Spot scam messages and links before you fall for them.", "ar": "اكتشف رسائل وروابط الاحتيال قبل أن تقع فيها." },
+      "short": {
+        "en": "Spot scam messages and links before you fall for them.",
+        "ar": "اكتشف رسائل وروابط الاحتيال قبل أن تقع فيها."
+      },
       "description": {
         "en": "Arabic-first awareness site built for a cybersecurity campaign. A “Real or Scam?” challenge built on messages modeled after Absher, Nafath, SPL, banks and stores, and a link checker that reads a pasted URL as text on the device and flags impersonation, look-alike letters (homographs), digit swaps, shorteners and other phishing patterns.",
         "ar": "موقع توعوي عربي لحملة أمن سيبراني. فيه تحدي «حقيقية أو احتيال؟» برسائل مستوحاة من أبشر ونفاذ وسبل والبنوك والمتاجر، وفاحص روابط يقرأ الرابط كنص على الجهاز ويكشف انتحال الجهات والحروف المتشابهة والأرقام البديلة واختصار الروابط وغيرها من أنماط التصيّد."
       },
-      "tags": ["Cybersecurity", "JavaScript"],
-      "demo": { "url": "https://7sh-mk.github.io/waei/" },
+      "tags": [
+        "Cybersecurity",
+        "JavaScript"
+      ],
+      "demo": {
+        "url": "https://7sh-mk.github.io/waei/"
+      },
       "repo": "https://github.com/7sh-mk/waei",
       "images": [
-        { "src": "assets/projects/waei/home.webp", "caption": { "en": "Home", "ar": "الرئيسية" } },
-        { "src": "assets/projects/waei/game.webp", "caption": { "en": "Real or Scam?", "ar": "حقيقية أو احتيال؟" } },
-        { "src": "assets/projects/waei/result.webp", "caption": { "en": "Final score", "ar": "النتيجة النهائية" } },
-        { "src": "assets/projects/waei/link-danger.webp", "caption": { "en": "Link checker", "ar": "فاحص الروابط" } }
+        {
+          "src": "assets/projects/waei/home.webp",
+          "caption": {
+            "en": "Home",
+            "ar": "الرئيسية"
+          }
+        },
+        {
+          "src": "assets/projects/waei/game.webp",
+          "caption": {
+            "en": "Real or Scam?",
+            "ar": "حقيقية أو احتيال؟"
+          }
+        },
+        {
+          "src": "assets/projects/waei/result.webp",
+          "caption": {
+            "en": "Final score",
+            "ar": "النتيجة النهائية"
+          }
+        },
+        {
+          "src": "assets/projects/waei/link-danger.webp",
+          "caption": {
+            "en": "Link checker",
+            "ar": "فاحص الروابط"
+          }
+        }
       ]
     },
     {
-      "id": "hudhud",
-      "name": { "en": "Hudhud", "ar": "هدهد" },
+      "id": "hodhod",
+      "name": {
+        "en": "Hodhod",
+        "ar": "هدهد"
+      },
       "category": "ai",
       "date": "2026",
-      "short": { "en": "A multimodal AI voice assistant for older adults.", "ar": "مساعد صوتي متعدد الوسائط لكبار السن." },
+      "short": {
+        "en": "A multimodal AI voice assistant for older adults.",
+        "ar": "مساعد صوتي متعدد الوسائط لكبار السن."
+      },
       "description": {
-        "en": "Built during Kanz Hackathon. Older adults take a photo of a medication or everyday object and Hudhud explains it by voice in Arabic or English, warning when an item may need extra attention. A caregiver dashboard lets family review scanned medications and send voice reminders. Built with n8n, Gemini for multimodal image understanding, and Webhooks.",
+        "en": "Built during Kanz Hackathon. Older adults take a photo of a medication or everyday object and Hodhod explains it by voice in Arabic or English, warning when an item may need extra attention. A caregiver dashboard lets family review scanned medications and send voice reminders. Built with n8n, Gemini for multimodal image understanding, and Webhooks.",
         "ar": "طوّرته في هاكاثون كنز. يصوّر كبير السن الدواء أو أي غرض، فيشرحه «هدهد» بالصوت بالعربية أو الإنجليزية، وينبّه إذا كان العنصر يحتاج انتباهًا. ولوحة للعائلة تعرض الأدوية التي فحصها وترسل له تذكيرات صوتية. مبني بـ n8n وGemini لفهم الصور وWebhooks."
       },
-      "tags": ["Generative AI", "Gemini", "n8n"],
-      "video": { "src": "assets/projects/hudhud/demo.mp4", "poster": "assets/projects/hudhud/demo-poster.jpg" },
+      "tags": [
+        "Generative AI",
+        "Gemini",
+        "n8n"
+      ],
+      "video": {
+        "src": "assets/projects/hodhod/demo.mp4",
+        "poster": "assets/projects/hodhod/demo-poster.jpg"
+      },
       "images": [
-        { "src": "assets/projects/hudhud/home.webp", "caption": { "en": "Home", "ar": "الرئيسية" } },
-        { "src": "assets/projects/hudhud/reminders.webp", "caption": { "en": "Reminders from family", "ar": "تذكيرات العائلة" } },
-        { "src": "assets/projects/hudhud/family-dashboard.webp", "caption": { "en": "Family dashboard", "ar": "لوحة العائلة" } }
+        {
+          "src": "assets/projects/hodhod/home.webp",
+          "caption": {
+            "en": "Home",
+            "ar": "الرئيسية"
+          }
+        },
+        {
+          "src": "assets/projects/hodhod/reminders.webp",
+          "caption": {
+            "en": "Reminders from family",
+            "ar": "تذكيرات العائلة"
+          }
+        },
+        {
+          "src": "assets/projects/hodhod/family-dashboard.webp",
+          "caption": {
+            "en": "Family dashboard",
+            "ar": "لوحة العائلة"
+          }
+        }
       ]
     },
     {
       "id": "pca-svm",
-      "name": { "en": "Hybrid PCA-SVM for DoS Detection", "ar": "نموذج PCA-SVM لكشف هجمات DoS" },
+      "name": {
+        "en": "Hybrid PCA-SVM for DoS Detection",
+        "ar": "نموذج PCA-SVM لكشف هجمات DoS"
+      },
       "category": "ml",
       "date": "2026",
-      "short": { "en": "Linear algebra meets ML: 98.77% attack precision.", "ar": "الجبر الخطي مع التعلّم الآلي: دقة 98.77% في كشف الهجمات." },
+      "short": {
+        "en": "Linear algebra meets ML: 98.77% attack precision.",
+        "ar": "الجبر الخطي مع التعلّم الآلي: دقة 98.77% في كشف الهجمات."
+      },
       "description": {
         "en": "Network traffic datasets carry 300+ features, making detection slow and noisy. PCA, built on the covariance matrix, eigen-decomposition and a projection matrix, reduces 318 features while keeping 95% of the information, then an SVM classifies the traffic. Dataset: BCCC-cPacket-Cloud-DDoS-2024, 700,774 flow records. Attack precision reached 98.77%, the highest among the baseline models.",
         "ar": "بيانات حركة الشبكة فيها أكثر من 300 خاصية، وهذا يبطّئ الكشف ويزيد التشويش. استخدمت PCA المبني على مصفوفة التغاير والتحليل الذاتي ومصفوفة الإسقاط لتقليل 318 خاصية مع الحفاظ على 95% من المعلومات، ثم صنّفت الحركة بـ SVM. البيانات: BCCC-cPacket-Cloud-DDoS-2024 بـ 700,774 سجل. وصلت الدقة في كشف الهجمات إلى 98.77%، الأعلى بين النماذج المرجعية."
       },
-      "tags": ["Machine Learning", "Cybersecurity", "Python", "Scikit-learn"],
+      "tags": [
+        "Machine Learning",
+        "Cybersecurity",
+        "Python",
+        "Scikit-learn"
+      ],
       "repo": "https://github.com/7sh-mk/Hybrid-PCA-SVM-DoS-Detection",
       "images": [
-        { "src": "assets/projects/pca-svm/framework.webp", "caption": { "en": "Framework", "ar": "الإطار العام" } },
-        { "src": "assets/projects/pca-svm/roc-curve.webp", "caption": { "en": "ROC curve", "ar": "منحنى ROC" } },
-        { "src": "assets/projects/pca-svm/confusion-matrices.webp", "caption": { "en": "Confusion matrices", "ar": "مصفوفات الالتباس" } },
-        { "src": "assets/projects/pca-svm/covariance-matrix.webp", "caption": { "en": "Covariance matrix", "ar": "مصفوفة التغاير" } },
-        { "src": "assets/projects/pca-svm/pca-variance.webp", "caption": { "en": "PCA explained variance", "ar": "التباين المفسَّر في PCA" } }
+        {
+          "src": "assets/projects/pca-svm/framework.webp",
+          "caption": {
+            "en": "Framework",
+            "ar": "الإطار العام"
+          }
+        },
+        {
+          "src": "assets/projects/pca-svm/roc-curve.webp",
+          "caption": {
+            "en": "ROC curve",
+            "ar": "منحنى ROC"
+          }
+        },
+        {
+          "src": "assets/projects/pca-svm/confusion-matrices.webp",
+          "caption": {
+            "en": "Confusion matrices",
+            "ar": "مصفوفات الالتباس"
+          }
+        },
+        {
+          "src": "assets/projects/pca-svm/covariance-matrix.webp",
+          "caption": {
+            "en": "Covariance matrix",
+            "ar": "مصفوفة التغاير"
+          }
+        },
+        {
+          "src": "assets/projects/pca-svm/pca-variance.webp",
+          "caption": {
+            "en": "PCA explained variance",
+            "ar": "التباين المفسَّر في PCA"
+          }
+        }
       ]
     },
     {
       "id": "stock-expert",
-      "name": { "en": "Stock Market Expert System", "ar": "نظام خبير لتحليل الأسهم" },
+      "name": {
+        "en": "Stock Market Expert System",
+        "ar": "نظام خبير لتحليل الأسهم"
+      },
       "category": "ai",
       "date": "2025",
-      "short": { "en": "Rule-based analysis of daily price and volume patterns.", "ar": "تحليل أنماط السعر والحجم اليومية بالقواعد." },
+      "short": {
+        "en": "Rule-based analysis of daily price and volume patterns.",
+        "ar": "تحليل أنماط السعر والحجم اليومية بالقواعد."
+      },
       "description": {
         "en": "A rule-based expert system that analyzes stock trading patterns from daily price and volume data, with no manual analysis. A Knowledge Base of price-action and volume rules, an Inference Engine that matches daily OHLC data against them, and an Explanation Facility. Built with Python, Tkinter, Pandas and Matplotlib.",
         "ar": "نظام خبير قائم على القواعد يحلل أنماط تداول الأسهم من بيانات السعر والحجم اليومية بدون تحليل يدوي. يتكوّن من قاعدة معرفة لقواعد حركة السعر والحجم، ومحرك استدلال يطابق بيانات OHLC اليومية معها، ووحدة تفسير. مبني بـ Python وTkinter وPandas وMatplotlib."
       },
-      "tags": ["Python", "Pandas"],
+      "tags": [
+        "Python",
+        "Pandas"
+      ],
       "repo": "https://github.com/7sh-mk/Stock-Expert-System",
       "images": [
-        { "src": "assets/projects/stock-expert/system-architecture.webp", "caption": { "en": "System architecture", "ar": "بنية النظام" } }
+        {
+          "src": "assets/projects/stock-expert/system-architecture.webp",
+          "caption": {
+            "en": "System architecture",
+            "ar": "بنية النظام"
+          }
+        }
       ]
     },
     {
       "id": "spl-compliance",
-      "name": { "en": "Security Compliance in Software Product Lines", "ar": "التحقق من الامتثال الأمني في خطوط إنتاج البرمجيات" },
+      "name": {
+        "en": "Security Compliance in Software Product Lines",
+        "ar": "التحقق من الامتثال الأمني في خطوط إنتاج البرمجيات"
+      },
       "category": "ml",
       "date": "2024",
-      "short": { "en": "Random Forest that verifies SPL configurations against security policy.", "ar": "غابة عشوائية تتحقق من إعدادات SPL مقابل السياسات الأمنية." },
+      "short": {
+        "en": "Random Forest that verifies SPL configurations against security policy.",
+        "ar": "غابة عشوائية تتحقق من إعدادات SPL مقابل السياسات الأمنية."
+      },
       "description": {
         "en": "In Software Product Lines, hundreds of configurations must be checked against security policies, which is impractical by hand. An improved Random Forest classifier, trained on real Android behavioral data (CIC-MalDroid 2020, 9,991 instances), classifies configurations automatically, and kept perfect accuracy even after 30% noise was injected into the training data.",
         "ar": "في خطوط إنتاج البرمجيات يجب التحقق من مئات الإعدادات مقابل السياسات الأمنية، وهذا غير عملي يدويًا. بنيت مصنِّف غابة عشوائية محسَّنًا، مدرَّبًا على بيانات سلوك تطبيقات Android حقيقية (CIC-MalDroid 2020، 9,991 عيّنة)، يصنّف الإعدادات تلقائيًا، وحافظ على دقة كاملة حتى بعد إضافة 30% تشويش لبيانات التدريب."
       },
-      "tags": ["Machine Learning", "Cybersecurity", "Python", "Scikit-learn"],
+      "tags": [
+        "Machine Learning",
+        "Cybersecurity",
+        "Python",
+        "Scikit-learn"
+      ],
       "repo": "https://github.com/7sh-mk/SPL-Security-Compliance-AI",
       "images": [
-        { "src": "assets/projects/spl-compliance/system-architecture.webp", "caption": { "en": "System architecture", "ar": "بنية النظام" } },
-        { "src": "assets/projects/spl-compliance/framework.webp", "caption": { "en": "Framework", "ar": "الإطار العام" } },
-        { "src": "assets/projects/spl-compliance/feature-model.webp", "caption": { "en": "Feature model", "ar": "نموذج الخصائص" } },
-        { "src": "assets/projects/spl-compliance/dataset-sample.webp", "caption": { "en": "Dataset sample", "ar": "عيّنة من البيانات" } },
-        { "src": "assets/projects/spl-compliance/confusion-matrix.webp", "caption": { "en": "Confusion matrix", "ar": "مصفوفة الالتباس" } }
+        {
+          "src": "assets/projects/spl-compliance/system-architecture.webp",
+          "caption": {
+            "en": "System architecture",
+            "ar": "بنية النظام"
+          }
+        },
+        {
+          "src": "assets/projects/spl-compliance/framework.webp",
+          "caption": {
+            "en": "Framework",
+            "ar": "الإطار العام"
+          }
+        },
+        {
+          "src": "assets/projects/spl-compliance/feature-model.webp",
+          "caption": {
+            "en": "Feature model",
+            "ar": "نموذج الخصائص"
+          }
+        },
+        {
+          "src": "assets/projects/spl-compliance/dataset-sample.webp",
+          "caption": {
+            "en": "Dataset sample",
+            "ar": "عيّنة من البيانات"
+          }
+        },
+        {
+          "src": "assets/projects/spl-compliance/confusion-matrix.webp",
+          "caption": {
+            "en": "Confusion matrix",
+            "ar": "مصفوفة الالتباس"
+          }
+        }
       ]
     }
   ]
