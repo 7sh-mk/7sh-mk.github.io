@@ -19,6 +19,10 @@ Everything on the page comes from [`data/profile.json`](data/profile.json). Edit
   - `tags` – also used by the Skills section: a skill that matches a project tag becomes clickable and filters the projects.
 - **Categories** for the project filter are in `projectCategories`.
 
+## Changing the code
+
+After editing `css/style.css` or `js/main.js`, bump the `?v=` number on both links in `index.html` so returning visitors get the new files instead of a cached copy.
+
 ## Structure
 
 ```
