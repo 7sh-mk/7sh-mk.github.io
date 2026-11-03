@@ -208,14 +208,14 @@
       },
       "date": "2026-07",
       "description": {
-        "en": "Took part in the hackathon and built Hodhod, an AI voice assistant for older adults.",
-        "ar": "شاركت في الهاكاثون وطوّرت «هدهد»، مساعدًا صوتيًا بالذكاء الاصطناعي لكبار السن."
+        "en": "Took part in a Guinness World Records title for the most users in an AI video lesson (13,043), and built Hodhod, an AI voice assistant for older adults, during the hackathon.",
+        "ar": "شاركت في رقم قياسي بموسوعة غينيس لأكبر عدد مستخدمين في درس فيديو عن الذكاء الاصطناعي (13,043)، وطوّرت خلال الهاكاثون «هدهد»، مساعدًا صوتيًا بالذكاء الاصطناعي لكبار السن."
       },
       "image": {
-        "src": "assets/certificates/kanz-project.webp",
+        "src": "assets/certificates/guinness-world-record.webp",
         "caption": {
-          "en": "Kanz AI Hackathon certificate",
-          "ar": "شهادة هاكاثون كنز للذكاء الاصطناعي"
+          "en": "Guinness World Records certificate",
+          "ar": "شهادة موسوعة غينيس للأرقام القياسية"
         }
       }
     },
@@ -260,7 +260,14 @@
       "issuer": "Kanz",
       "date": "2026-07",
       "credentialId": "KANZ-GWR-FEFD0B5218",
-      "url": "https://try.ka.nz/certificate/KANZ-GWR-FEFD0B5218?certificate_type=gwr2&recipient_name=%D8%B4%D8%B1%D9%8A%D9%81%D8%A9+%D9%85%D8%AD%D9%85%D8%AF&issue_date=July+15%2C+2026&certificate_id=KANZ-GWR-FEFD0B5218&lang=ar"
+      "url": "https://try.ka.nz/certificate/KANZ-GWR-FEFD0B5218?certificate_type=gwr2&recipient_name=%D8%B4%D8%B1%D9%8A%D9%81%D8%A9+%D9%85%D8%AD%D9%85%D8%AF&issue_date=July+15%2C+2026&certificate_id=KANZ-GWR-FEFD0B5218&lang=ar",
+      "image": {
+        "src": "assets/certificates/guinness-world-record.webp",
+        "caption": {
+          "en": "Guinness World Records certificate",
+          "ar": "شهادة موسوعة غينيس للأرقام القياسية"
+        }
+      }
     },
     {
       "name": "AI Training Hackathon",
