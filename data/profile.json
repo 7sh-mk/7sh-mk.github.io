@@ -199,28 +199,6 @@
   "honors": [
     {
       "title": {
-        "en": "Kanz Hackathon · Guinness World Record: AI Training Hackathon",
-        "ar": "هاكاثون كنز · شهادة غينيس للأرقام القياسية: هاكاثون تدريب الذكاء الاصطناعي"
-      },
-      "issuer": {
-        "en": "Kanz Initiative, MHRSD",
-        "ar": "مبادرة كنز، وزارة الموارد البشرية والتنمية الاجتماعية"
-      },
-      "date": "2026-07",
-      "description": {
-        "en": "Took part in a Guinness World Records title for the most users in an AI video lesson (13,043), and built Hodhod, an AI voice assistant for older adults, during the hackathon.",
-        "ar": "شاركت في رقم قياسي بموسوعة غينيس لأكبر عدد مستخدمين في درس فيديو عن الذكاء الاصطناعي (13,043)، وطوّرت خلال الهاكاثون «هدهد»، مساعدًا صوتيًا بالذكاء الاصطناعي لكبار السن."
-      },
-      "image": {
-        "src": "assets/certificates/guinness-world-record.webp",
-        "caption": {
-          "en": "Guinness World Records certificate",
-          "ar": "شهادة موسوعة غينيس للأرقام القياسية"
-        }
-      }
-    },
-    {
-      "title": {
         "en": "Certificate of Excellence",
         "ar": "شهادة تفوق"
       },
@@ -228,7 +206,7 @@
         "en": "King Abdulaziz University",
         "ar": "جامعة الملك عبدالعزيز"
       },
-      "date": "2025-06",
+      "date": "2026-11",
       "image": {
         "src": "assets/certificates/excellence-kau.webp",
         "caption": {
@@ -239,6 +217,50 @@
       "description": {
         "en": "GPA “Excellent” in the 2025–2026 academic year, awarded by the Deanship of Student Affairs.",
         "ar": "تقدير «ممتاز» في العام الجامعي 2025–2026، من عمادة شؤون الطلاب."
+      }
+    },
+    {
+      "title": {
+        "en": "Kanz AI Showcase · Featured Project: Hodhod",
+        "ar": "معرض كنز للذكاء الاصطناعي · مشروع مميز: هدهد"
+      },
+      "issuer": {
+        "en": "Kanz Initiative, MHRSD",
+        "ar": "مبادرة كنز، وزارة الموارد البشرية والتنمية الاجتماعية"
+      },
+      "date": "2026-07",
+      "description": {
+        "en": "Completed the AI Training Hackathon and built Hodhod, an AI voice assistant for older adults.",
+        "ar": "أتممت هاكاثون تدريب الذكاء الاصطناعي وطوّرت «هدهد»، مساعدًا صوتيًا بالذكاء الاصطناعي لكبار السن."
+      },
+      "image": {
+        "src": "assets/certificates/kanz-project.webp",
+        "caption": {
+          "en": "Kanz AI Hackathon certificate, featured project: Hodhod",
+          "ar": "شهادة هاكاثون كنز، المشروع المميز: هدهد"
+        }
+      }
+    },
+    {
+      "title": {
+        "en": "Guinness World Records · Kanz AI Training Hackathon",
+        "ar": "موسوعة غينيس للأرقام القياسية · هاكاثون كنز لتدريب الذكاء الاصطناعي"
+      },
+      "issuer": {
+        "en": "Kanz Initiative, MHRSD",
+        "ar": "مبادرة كنز، وزارة الموارد البشرية والتنمية الاجتماعية"
+      },
+      "date": "2025-07",
+      "description": {
+        "en": "Took part in a Guinness World Records title for the most users in an AI video lesson (13,043).",
+        "ar": "شاركت في رقم قياسي بموسوعة غينيس لأكبر عدد مستخدمين في درس فيديو عن الذكاء الاصطناعي (13,043)."
+      },
+      "image": {
+        "src": "assets/certificates/guinness-world-record.webp",
+        "caption": {
+          "en": "Guinness World Records certificate",
+          "ar": "شهادة موسوعة غينيس للأرقام القياسية"
+        }
       }
     }
   ],
@@ -252,20 +274,6 @@
         "caption": {
           "en": "Promising Researcher camp, KAU",
           "ar": "مخيم الباحث الواعد، جامعة الملك عبدالعزيز"
-        }
-      }
-    },
-    {
-      "name": "Guinness World Record - AI Training Hackathon",
-      "issuer": "Kanz",
-      "date": "2026-07",
-      "credentialId": "KANZ-GWR-FEFD0B5218",
-      "url": "https://try.ka.nz/certificate/KANZ-GWR-FEFD0B5218?certificate_type=gwr2&recipient_name=%D8%B4%D8%B1%D9%8A%D9%81%D8%A9+%D9%85%D8%AD%D9%85%D8%AF&issue_date=July+15%2C+2026&certificate_id=KANZ-GWR-FEFD0B5218&lang=ar",
-      "image": {
-        "src": "assets/certificates/guinness-world-record.webp",
-        "caption": {
-          "en": "Guinness World Records certificate",
-          "ar": "شهادة موسوعة غينيس للأرقام القياسية"
         }
       }
     },
@@ -317,6 +325,20 @@
       "date": "2026-04",
       "credentialId": "ALM-COURSE_4059725",
       "url": "https://skills.yourlearning.ibm.com/certificate/share/b0941a8194ewogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIsCiAgImxlYXJuZXJDTlVNIiA6ICI3NjY2OTIzUkVHIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfNDA1OTcyNSIKfQ05c9ed9e4a-10"
+    },
+    {
+      "name": "Guinness World Record - AI Training Hackathon",
+      "issuer": "Kanz",
+      "date": "2025-07",
+      "credentialId": "KANZ-GWR-FEFD0B5218",
+      "url": "https://try.ka.nz/certificate/KANZ-GWR-FEFD0B5218?certificate_type=gwr2&recipient_name=%D8%B4%D8%B1%D9%8A%D9%81%D8%A9+%D9%85%D8%AD%D9%85%D8%AF&issue_date=July+15%2C+2026&certificate_id=KANZ-GWR-FEFD0B5218&lang=ar",
+      "image": {
+        "src": "assets/certificates/guinness-world-record.webp",
+        "caption": {
+          "en": "Guinness World Records certificate",
+          "ar": "شهادة موسوعة غينيس للأرقام القياسية"
+        }
+      }
     },
     {
       "name": "Structuring Machine Learning Projects",

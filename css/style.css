@@ -243,7 +243,7 @@ main { padding-inline: 16px; }
 .row__desc { color: var(--muted); font-size: .9rem; grid-column: 1 / -1; }
 
 /* Honors */
-.honors { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 1.25rem; }
+.honors { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); gap: 1.25rem; }
 .honor { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; transition: transform .35s var(--ease), box-shadow .35s var(--ease); }
 .honor:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
 .honor__media { all: unset; box-sizing: border-box; display: grid; grid-template: minmax(0, 1fr) / minmax(0, 1fr); place-items: center; overflow: hidden; aspect-ratio: 16 / 10; padding: clamp(1rem, 4%, 1.75rem); background: var(--blush); cursor: zoom-in; }
