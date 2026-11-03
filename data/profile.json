@@ -234,10 +234,10 @@
         "ar": "أتممت هاكاثون تدريب الذكاء الاصطناعي وطوّرت «هدهد»، مساعدًا صوتيًا بالذكاء الاصطناعي لكبار السن."
       },
       "image": {
-        "src": "assets/certificates/kanz-project.webp",
+        "src": "assets/certificates/kanz-participation.webp",
         "caption": {
-          "en": "Kanz AI Hackathon certificate, featured project: Hodhod",
-          "ar": "شهادة هاكاثون كنز، المشروع المميز: هدهد"
+          "en": "Kanz AI course participation certificate",
+          "ar": "شهادة مشاركة من كنز للذكاء الاصطناعي"
         }
       }
     },
@@ -250,13 +250,13 @@
         "en": "Kanz Initiative, MHRSD",
         "ar": "مبادرة كنز، وزارة الموارد البشرية والتنمية الاجتماعية"
       },
-      "date": "2025-07",
+      "date": "2026-07",
       "description": {
-        "en": "Took part in a Guinness World Records title for the most users in an AI video lesson (13,043).",
-        "ar": "شاركت في رقم قياسي بموسوعة غينيس لأكبر عدد مستخدمين في درس فيديو عن الذكاء الاصطناعي (13,043)."
+        "en": "Took part in a Guinness World Records event for the most users in an AI video lesson, with 14,075 participants, achieved by Kanz and the Ministry of Human Resources and Social Development.",
+        "ar": "شاركت في حدث بموسوعة غينيس للأرقام القياسية لأكبر عدد مستخدمين في درس فيديو عن الذكاء الاصطناعي، بمشاركة 14,075 شخصًا، حققته كنز ووزارة الموارد البشرية والتنمية الاجتماعية."
       },
       "image": {
-        "src": "assets/certificates/guinness-world-record.webp",
+        "src": "assets/certificates/guinness-record-holder.webp",
         "caption": {
           "en": "Guinness World Records certificate",
           "ar": "شهادة موسوعة غينيس للأرقام القياسية"
@@ -291,10 +291,24 @@
       "credentialId": "KANZ-ATT-A533A49BA7",
       "url": "https://try.ka.nz/certificate/KANZ-ATT-A533A49BA7?certificate_type=participation&recipient_name=Sharifa&issue_date=July%2015%2C%202026&certificate_id=KANZ-ATT-A533A49BA7",
       "image": {
-        "src": "assets/certificates/kanz-project.webp",
+        "src": "assets/certificates/kanz-participation.webp",
         "caption": {
-          "en": "Kanz AI workshop completion certificate",
-          "ar": "شهادة إتمام ورشة كنز للذكاء الاصطناعي"
+          "en": "Kanz AI course participation certificate",
+          "ar": "شهادة مشاركة من كنز للذكاء الاصطناعي"
+        }
+      }
+    },
+    {
+      "name": "Guinness World Record - AI Training Hackathon",
+      "issuer": "Kanz",
+      "date": "2026-07",
+      "credentialId": "KANZ-GWR-FEFD0B5218",
+      "url": "https://try.ka.nz/certificate/KANZ-GWR-FEFD0B5218?certificate_type=gwr2&recipient_name=%D8%B4%D8%B1%D9%8A%D9%81%D8%A9+%D9%85%D8%AD%D9%85%D8%AF&issue_date=July+15%2C+2026&certificate_id=KANZ-GWR-FEFD0B5218&lang=ar",
+      "image": {
+        "src": "assets/certificates/guinness-record-holder.webp",
+        "caption": {
+          "en": "Guinness World Records certificate",
+          "ar": "شهادة موسوعة غينيس للأرقام القياسية"
         }
       }
     },
@@ -325,20 +339,6 @@
       "date": "2026-04",
       "credentialId": "ALM-COURSE_4059725",
       "url": "https://skills.yourlearning.ibm.com/certificate/share/b0941a8194ewogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIsCiAgImxlYXJuZXJDTlVNIiA6ICI3NjY2OTIzUkVHIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfNDA1OTcyNSIKfQ05c9ed9e4a-10"
-    },
-    {
-      "name": "Guinness World Record - AI Training Hackathon",
-      "issuer": "Kanz",
-      "date": "2025-07",
-      "credentialId": "KANZ-GWR-FEFD0B5218",
-      "url": "https://try.ka.nz/certificate/KANZ-GWR-FEFD0B5218?certificate_type=gwr2&recipient_name=%D8%B4%D8%B1%D9%8A%D9%81%D8%A9+%D9%85%D8%AD%D9%85%D8%AF&issue_date=July+15%2C+2026&certificate_id=KANZ-GWR-FEFD0B5218&lang=ar",
-      "image": {
-        "src": "assets/certificates/guinness-world-record.webp",
-        "caption": {
-          "en": "Guinness World Records certificate",
-          "ar": "شهادة موسوعة غينيس للأرقام القياسية"
-        }
-      }
     },
     {
       "name": "Structuring Machine Learning Projects",
