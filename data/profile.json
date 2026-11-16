@@ -267,6 +267,46 @@
   "certifications": [
     {
       "name": {
+        "en": "Artificial Intelligence Concepts and Advanced Applications",
+        "ar": "مفاهيم الذكاء الاصطناعي وتطبيقاته المتقدمة"
+      },
+      "issuer": {
+        "en": "SDAIA",
+        "ar": "سدايا"
+      },
+      "date": "2026-11",
+      "credentialId": "eTMURAvcg7",
+      "url": "https://learn.samai.futurex.sa/mod/customcert/verify_certificate.php?code=eTMURAvcg7&qrcode=1",
+      "image": {
+        "src": "assets/certificates/sdaia-ai-concepts.webp",
+        "caption": {
+          "en": "Certificate of Achievement, SDAIA (SAMAI initiative)",
+          "ar": "شهادة اجتياز، سدايا (مبادرة سماي)"
+        }
+      }
+    },
+    {
+      "name": {
+        "en": "Fundamentals of Artificial Intelligence",
+        "ar": "مبادئ الذكاء الاصطناعي"
+      },
+      "issuer": {
+        "en": "SDAIA",
+        "ar": "سدايا"
+      },
+      "date": "2026-11",
+      "credentialId": "kE9hcWnG9Y",
+      "url": "https://learn.samai.futurex.sa/mod/customcert/verify_certificate.php?code=kE9hcWnG9Y&qrcode=1",
+      "image": {
+        "src": "assets/certificates/sdaia-ai-fundamentals.webp",
+        "caption": {
+          "en": "Certificate of Achievement, SDAIA (SAMAI initiative)",
+          "ar": "شهادة اجتياز، سدايا (مبادرة سماي)"
+        }
+      }
+    },
+    {
+      "name": {
         "en": "AWS Certified AI Practitioner · Learning Path",
         "ar": "AWS Certified AI Practitioner · مسار تعليمي"
       },
