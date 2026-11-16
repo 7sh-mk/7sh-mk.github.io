@@ -317,7 +317,7 @@
       "date": "2026-11",
       "url": "https://mcit.futurex.sa/certificates/d04c187021ed4ce494e9b150ba8ac6b0",
       "image": {
-        "src": "assets/certificates/aws-ai-practitioner-path.webp",
+        "src": "assets/certificates/aws-ai-practitioner-path-hd.webp",
         "caption": {
           "en": "AWS Certified AI Practitioner learning path, Saudi Digital Academy",
           "ar": "مسار AWS Certified AI Practitioner، الأكاديمية السعودية الرقمية"
@@ -398,6 +398,46 @@
       "date": "2026-04",
       "credentialId": "ALM-COURSE_4059725",
       "url": "https://skills.yourlearning.ibm.com/certificate/share/b0941a8194ewogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIsCiAgImxlYXJuZXJDTlVNIiA6ICI3NjY2OTIzUkVHIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfNDA1OTcyNSIKfQ05c9ed9e4a-10"
+    },
+    {
+      "name": {
+        "en": "Machine Learning Specialization",
+        "ar": "تخصص تعلّم الآلة (Machine Learning Specialization)"
+      },
+      "issuer": {
+        "en": "DeepLearning.AI · Stanford University",
+        "ar": "DeepLearning.AI · جامعة ستانفورد"
+      },
+      "date": "2025-05",
+      "credentialId": "OFZ89WYU5ZI0",
+      "url": "https://coursera.org/verify/specialization/OFZ89WYU5ZI0",
+      "image": {
+        "src": "assets/certificates/coursera-machine-learning-specialization.webp",
+        "caption": {
+          "en": "Machine Learning Specialization, Coursera",
+          "ar": "تخصص تعلّم الآلة (Machine Learning Specialization)، Coursera"
+        }
+      }
+    },
+    {
+      "name": {
+        "en": "Deep Learning Specialization",
+        "ar": "تخصص التعلّم العميق (Deep Learning Specialization)"
+      },
+      "issuer": {
+        "en": "DeepLearning.AI",
+        "ar": "DeepLearning.AI"
+      },
+      "date": "2025-05",
+      "credentialId": "V63IW1QBJP6L",
+      "url": "https://coursera.org/verify/specialization/V63IW1QBJP6L",
+      "image": {
+        "src": "assets/certificates/coursera-deep-learning-specialization.webp",
+        "caption": {
+          "en": "Deep Learning Specialization, Coursera",
+          "ar": "تخصص التعلّم العميق (Deep Learning Specialization)، Coursera"
+        }
+      }
     },
     {
       "name": "Structuring Machine Learning Projects",
