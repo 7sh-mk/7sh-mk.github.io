@@ -404,14 +404,28 @@
       "issuer": "Coursera",
       "date": "2025-04",
       "credentialId": "2OBXLX6A772D",
-      "url": "https://www.coursera.org/account/accomplishments/records/2OBXLX6A772D"
+      "url": "https://www.coursera.org/account/accomplishments/records/2OBXLX6A772D",
+      "image": {
+        "src": "assets/certificates/coursera-structuring-ml-projects.webp",
+        "caption": {
+          "en": "Structuring Machine Learning Projects, Coursera certificate",
+          "ar": "Structuring Machine Learning Projects، شهادة Coursera"
+        }
+      }
     },
     {
       "name": "Unsupervised Learning, Recommenders, Reinforcement Learning",
       "issuer": "Stanford University",
       "date": "2025-04",
       "credentialId": "JBH5EVWIDRV3",
-      "url": "https://www.coursera.org/account/accomplishments/records/JBH5EVWIDRV3"
+      "url": "https://www.coursera.org/account/accomplishments/records/JBH5EVWIDRV3",
+      "image": {
+        "src": "assets/certificates/coursera-unsupervised-learning.webp",
+        "caption": {
+          "en": "Unsupervised Learning, Recommenders, Reinforcement Learning, Coursera certificate",
+          "ar": "Unsupervised Learning, Recommenders, Reinforcement Learning، شهادة Coursera"
+        }
+      }
     }
   ],
   "skills": [
