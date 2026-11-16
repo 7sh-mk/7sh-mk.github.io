@@ -266,6 +266,25 @@
   ],
   "certifications": [
     {
+      "name": {
+        "en": "AWS Certified AI Practitioner · Learning Path",
+        "ar": "AWS Certified AI Practitioner · مسار تعليمي"
+      },
+      "issuer": {
+        "en": "Saudi Digital Academy · FutureX",
+        "ar": "الأكاديمية السعودية الرقمية · FutureX"
+      },
+      "date": "2026-11",
+      "url": "https://mcit.futurex.sa/certificates/d04c187021ed4ce494e9b150ba8ac6b0",
+      "image": {
+        "src": "assets/certificates/aws-ai-practitioner-path.webp",
+        "caption": {
+          "en": "AWS Certified AI Practitioner learning path, Saudi Digital Academy",
+          "ar": "مسار AWS Certified AI Practitioner، الأكاديمية السعودية الرقمية"
+        }
+      }
+    },
+    {
       "name": "Promising Researcher · الباحث الواعد",
       "issuer": "King Abdulaziz University",
       "date": "2026-10",
