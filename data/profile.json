@@ -595,24 +595,10 @@
         "Cloudflare"
       ],
       "demo": {
-        "url": "https://datascope.datascope-worker.workers.dev"
+        "url": "https://datascope.datascope-worker.workers.dev/?lang=en"
       },
       "repo": "https://github.com/7sh-mk/datascope",
       "images": [
-        {
-          "src": "assets/projects/datascope/home-ar.webp",
-          "caption": {
-            "en": "Home (Arabic)",
-            "ar": "الرئيسية بالعربية"
-          }
-        },
-        {
-          "src": "assets/projects/datascope/results-ar-diabetes.webp",
-          "caption": {
-            "en": "Arabic search: diabetes",
-            "ar": "بحث عربي: السكري"
-          }
-        },
         {
           "src": "assets/projects/datascope/home-en.webp",
           "caption": {
@@ -625,6 +611,20 @@
           "caption": {
             "en": "English search: fraud detection",
             "ar": "بحث إنجليزي: كشف الاحتيال"
+          }
+        },
+        {
+          "src": "assets/projects/datascope/home-ar.webp",
+          "caption": {
+            "en": "Home (Arabic)",
+            "ar": "الرئيسية بالعربية"
+          }
+        },
+        {
+          "src": "assets/projects/datascope/results-ar-diabetes.webp",
+          "caption": {
+            "en": "Arabic search: diabetes",
+            "ar": "بحث عربي: السكري"
           }
         }
       ]
