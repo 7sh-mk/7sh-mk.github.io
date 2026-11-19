@@ -595,36 +595,22 @@
         "Cloudflare"
       ],
       "demo": {
-        "url": "https://datascope.datascope-worker.workers.dev/?lang=en"
+        "url": "https://datascope.datascope-worker.workers.dev"
       },
       "repo": "https://github.com/7sh-mk/datascope",
       "images": [
         {
           "src": "assets/projects/datascope/home-en.webp",
           "caption": {
-            "en": "Home (English)",
-            "ar": "الرئيسية بالإنجليزية"
+            "en": "Home",
+            "ar": "الرئيسية"
           }
         },
         {
           "src": "assets/projects/datascope/results-en-fraud-detection.webp",
           "caption": {
-            "en": "English search: fraud detection",
-            "ar": "بحث إنجليزي: كشف الاحتيال"
-          }
-        },
-        {
-          "src": "assets/projects/datascope/home-ar.webp",
-          "caption": {
-            "en": "Home (Arabic)",
-            "ar": "الرئيسية بالعربية"
-          }
-        },
-        {
-          "src": "assets/projects/datascope/results-ar-diabetes.webp",
-          "caption": {
-            "en": "Arabic search: diabetes",
-            "ar": "بحث عربي: السكري"
+            "en": "Search: fraud detection",
+            "ar": "بحث: كشف الاحتيال"
           }
         }
       ]
