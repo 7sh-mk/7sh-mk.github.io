@@ -573,6 +573,63 @@
   },
   "projects": [
     {
+      "id": "datascope",
+      "name": {
+        "en": "DataScope",
+        "ar": "داتا سكوب"
+      },
+      "category": "web",
+      "date": "2026",
+      "short": {
+        "en": "Search six dataset repositories at once, in Arabic or English.",
+        "ar": "ابحث في ست منصات بيانات دفعة واحدة، بالعربية أو الإنجليزية."
+      },
+      "description": {
+        "en": "Unified dataset discovery for researchers. One query, even a single Arabic or English word, searches Hugging Face, Kaggle, UCI, OpenML, Papers with Code and Saudi Open Data in parallel and shows every result in one consistent card with a direct link to the source. A query understanding engine detects the language, normalizes and stems Arabic, and expands the query into English technical terms and likely ML tasks with Cloudflare Workers AI, falling back to a bilingual concept dictionary. Includes verified benchmark badges, duplicate detection across sources and relevance ranking. Built with React, TypeScript, Tailwind and a Cloudflare Worker API with a D1 index.",
+        "ar": "منصة موحّدة لاكتشاف مجموعات البيانات للباحثين. استعلام واحد، ولو كلمة عربية أو إنجليزية واحدة، يبحث بالتوازي في Hugging Face وKaggle وUCI وOpenML وPapers with Code والبيانات المفتوحة السعودية، ويعرض كل النتائج في بطاقة موحّدة برابط مباشر للمصدر. محرك لفهم الاستعلام يكتشف اللغة ويوحّد الكتابة العربية ويجذّرها، ويوسّع الاستعلام إلى مصطلحات تقنية إنجليزية ومهام تعلّم آلي محتملة عبر Cloudflare Workers AI، مع قاموس مفاهيم ثنائي اللغة بديلاً. فيه شارات للمعايير المعتمدة (Benchmarks) وكشف التكرار بين المصادر وترتيب حسب الصلة. مبني بـ React وTypeScript وTailwind وواجهة برمجية على Cloudflare Worker مع فهرس D1."
+      },
+      "tags": [
+        "Generative AI",
+        "TypeScript",
+        "React",
+        "Cloudflare"
+      ],
+      "demo": {
+        "url": "https://datascope.datascope-worker.workers.dev"
+      },
+      "repo": "https://github.com/7sh-mk/datascope",
+      "images": [
+        {
+          "src": "assets/projects/datascope/home-ar.webp",
+          "caption": {
+            "en": "Home (Arabic)",
+            "ar": "الرئيسية بالعربية"
+          }
+        },
+        {
+          "src": "assets/projects/datascope/results-ar-diabetes.webp",
+          "caption": {
+            "en": "Arabic search: diabetes",
+            "ar": "بحث عربي: السكري"
+          }
+        },
+        {
+          "src": "assets/projects/datascope/home-en.webp",
+          "caption": {
+            "en": "Home (English)",
+            "ar": "الرئيسية بالإنجليزية"
+          }
+        },
+        {
+          "src": "assets/projects/datascope/results-en-fraud-detection.webp",
+          "caption": {
+            "en": "English search: fraud detection",
+            "ar": "بحث إنجليزي: كشف الاحتيال"
+          }
+        }
+      ]
+    },
+    {
       "id": "mubashir",
       "name": {
         "en": "Mubashir",
